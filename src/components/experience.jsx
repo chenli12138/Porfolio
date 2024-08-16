@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <>
       <p className="section__text__p1">Explore My</p>
-      <h1 className="title">Experience</h1>
+      <h1 className="title exp-gap ">Experience</h1>
       <div className="experience-details-container">
         <div className="about-containers">
           <div className="details-container">
@@ -14,19 +14,22 @@ const Experience = () => {
             <div className="article-container">
               <ExpTag code="HTML" lvl="Experienced" />
               <ExpTag code="CSS" lvl="Experienced" />
-              <ExpTag code="React" lvl="Intermediate" />
-              <ExpTag code="JavaScript" lvl="Intermediate" />
-              <ExpTag code="Material UI" lvl="Intermediate" />
-              <ExpTag code="TypeScript" lvl="Basic" />
+              <ExpTag code="React" lvl="Advanced" />
+              <ExpTag code="TypeScript" lvl="Advanced" />
+              <ExpTag code="Material UI" lvl="Experienced" />
+              <ExpTag code="Tailwind" lvl="Skillful" />
             </div>
           </div>
           <div className="details-container">
             <h2 className="experience-sub-title">Backend Development</h2>
             <div className="article-container">
               <ExpTag code="PHP" lvl="Experienced" />
+              <ExpTag code="Node" lvl="Experienced" />
               <ExpTag code="MySQL" lvl="Experienced" />
               <ExpTag code="REST API" lvl="Experienced" />
-              <ExpTag code="Git" lvl="Intermediate" />
+              <ExpTag code="Git" lvl="Advanced" />
+              <ExpTag code="Docker" lvl="Experienced" />
+              <ExpTag code="Linux" lvl="Experienced" />
             </div>
           </div>
         </div>

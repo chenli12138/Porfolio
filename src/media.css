@@ -23,6 +23,9 @@
   .section-container {
     display: block;
   }
+  .exp-gap {
+    margin-bottom: 4rem;
+  }
   .arrow {
     display: none;
   }
@@ -44,6 +47,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .exp-gap {
+    margin-bottom: 2rem;
+  }
   #contact,
   footer {
     height: 40vh;

@@ -320,6 +320,9 @@ section {
 #experience {
   position: relative;
 }
+.exp-gap {
+  margin-bottom: 20rem;
+}
 
 .experience-sub-title {
   color: rgb(85, 85, 85);

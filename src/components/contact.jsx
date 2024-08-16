@@ -21,7 +21,7 @@ const Contact = () => {
                 (window.location.href = "mailto:lgf130031@gmail.com")
               }
             >
-              lgf130031@gmail.com
+              chenli.dev@outlook.com
             </a>
           </p>
         </div>
@@ -32,7 +32,7 @@ const Contact = () => {
             className="icon contact-icon"
           />
           <p>
-            <a href="https://www.linkedin.com">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/chen-li-dev/">LinkedIn</a>
           </p>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import project1 from "../assets/project-1.png";
-import project2 from "../assets/project-2.png";
+import project2 from "../assets/project-2.jpg";
 import project3 from "../assets/project-3.png";
 import arrowIcon from "../assets/arrow.png";
 
@@ -19,17 +19,19 @@ const Projects = () => {
             <div className="article-container">
               <img src={project1} alt="Project 1" className="project-img" />
             </div>
-            <h2 className="experience-sub-title project-title">Project One</h2>
+            <h2 className="experience-sub-title project-title">Trailflix</h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => linkHandler(gitURL)}
+                onClick={() =>
+                  linkHandler("https://github.com/chenli12138/trailflix")
+                }
               >
                 Github
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => linkHandler(gitURL)}
+                onClick={() => linkHandler("https://trailflix-pi.vercel.app/")}
               >
                 Live Demo
               </button>
@@ -39,17 +41,19 @@ const Projects = () => {
             <div className="article-container">
               <img src={project2} alt="Project 2" className="project-img" />
             </div>
-            <h2 className="experience-sub-title project-title">Project Two</h2>
+            <h2 className="experience-sub-title project-title">Ella Makeup</h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => linkHandler(gitURL)}
+                onClick={() =>
+                  linkHandler("https://github.com/chenli12138/ella_makeup")
+                }
               >
                 Github
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => linkHandler(gitURL)}
+                onClick={() => linkHandler("https://ellamakeup.com.au/")}
               >
                 Live Demo
               </button>

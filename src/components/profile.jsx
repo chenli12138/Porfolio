@@ -4,8 +4,8 @@ import linkedInImg from "../assets/linkedin.png";
 import gitHubImg from "../assets/github.png";
 
 const Profile = () => {
-  const linkedInUrl = "https://linkedin.com/";
-  const gitURL = "https://github.com/";
+  const linkedInUrl = "https://www.linkedin.com/in/chen-li-dev/";
+  const gitURL = "https://github.com/chenli12138/";
   const linkHandler = (url) => {
     window.location.href = url;
   };
